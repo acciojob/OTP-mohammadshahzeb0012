@@ -1,1 +1,57 @@
 /*  your css code here. If applicable */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input::-webkit-inner-spin-button{
+  display: none;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#verification_heading{
+  font-size: 50px;
+}
+#verification_subtext{
+  color: gray;
+  font-size: 30px;
+}
+.code-container{
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+input{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  text-align: center;
+  font-size: 150px;
+  color: gray;
+}
+
+
+::-webkit-input-placeholder{
+  text-align: center;
+}
+:-moz-placeholder{
+  /* text-align: center; */
+}
+.footer{
+  background-color: #EAEAEA;
+  width: 26vw;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
